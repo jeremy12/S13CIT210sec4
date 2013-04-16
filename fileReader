@@ -24,7 +24,11 @@ String s1;
   StringTokenizer st = new StringTokenizer (s1);
 
   while (st.hasMoreTokens())
-
+       {
+       s2 = st.NextToken();
+       numTokens++;
+       System.out.println (" Token" + numTokens + " is:" + s2);
+       }
   
  }
 }
